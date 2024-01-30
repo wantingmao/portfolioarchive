@@ -1,0 +1,140 @@
+body{
+    background-color: #F4FAFF;
+}
+.contact-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #fff;
+    color: #4E0250;;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Inconsolata', serif;
+    font-size: 20px;
+    background-color: #F4FAFF;
+}
+header .navbar a.active{
+    color: #ff0000;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+#contact-form {
+    border-radius: 8px;
+    text-align: left;
+    /* padding: 20px 0px 40px 0px; */
+}
+
+#contact-form h2 {
+    color: #4E0250;; /* Match the color of other headings */
+    font-family: 'Inconsolata', serif;
+    padding: 0px 0px 20px 0px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 3px;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 16px;
+    color: #4E0250;;
+}
+#contact-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 0.8px solid #4E0250;;
+    border-radius: 0px;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 14px;
+}
+
+#contact-form .name-inputs {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0px;
+
+}
+
+#contact-form .name-input {
+    width: 40%; /* Adjust as needed for spacing */
+    border-radius: 0px;
+}
+
+#contact-form .name-input label {
+    display: block;
+    margin-bottom: 3px;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 16px;
+    color: #4E0250;;
+}
+
+#contact-form .name-input input {
+    width: 100%;
+    padding: 12px;
+    border: 0.8px solid#4E0250;;
+    border-radius: 0px;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 14px;
+}
+
+#contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #4E0250;;
+    border-radius: 0px;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 14px;
+}
+#contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 0.8px solid #4E0250;;
+    border-radius: 0px;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 14px;
+}
+#contact-form button {
+    display: inline-block;
+    font-family: 'Inconsolata', serif;
+    font-size: 14px;
+    padding: 13px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: #fff;
+    box-shadow: inset 1px 2px 3px rgba(33, 78, 211, 0.5);
+    color: #4E0250;;
+    border-radius: 0px;
+    border: 2px solid #4E0250;;
+    transition: background-color 0.3s ease;
+    margin: 10px auto;
+}
+#contact-form button:hover {
+    color:#fff;
+    background-color: #4E0250;;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0px 30px 0px;
+}
+
+.contact-links a {
+    color: #4E0250;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 18px;
+    margin: 20px 20px;
+}
+
+.contact-links a:hover{
+    color: #ff0000; /* Change to your desired link color on hover */
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+}

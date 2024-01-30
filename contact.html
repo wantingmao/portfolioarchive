@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="style.css"> <!-- Link to your main style.css -->
+    <link rel="stylesheet" href="contact.css"> <!-- Link to the new or updated contact.css -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400&family=Inter:wght@100&family=Playfair+Display&display=swap" rel="stylesheet">
+    
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html">Work</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="4fb57ae7-def2-4c25-840b-3293f38a7f48">
+        <section id="contact-form">
+            <h2>Let's Connect</h2>
+            
+                <div class="name-inputs">
+            
+                    <div class="name-input">
+                       
+                        <label for="fname">First Name </label>
+                        <input type="text" id="fname" name="fname" required>
+                    </div>
+
+                    <div class="name-input">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lname">
+                    </div>
+                </div>
+            <!-- </div> -->
+
+                <label for="email">Email <span></span></label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject <span></span></label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message <span></span></label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <div class="contact-links">
+            <!-- Contact links content -->
+            <a href="mailto:wantinggmao@gmail.com">wantinggmao.com@gmail.com</a>
+            <a href="tel:+15107080504">510.708.0504</a>
+        </div>
+    </footer>
+</body>
+</html>

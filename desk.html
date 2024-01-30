@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="desk.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300&family=Inconsolata:wght@300;400&family=Inter:wght@100&family=Playfair+Display&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="navigation.css">
+    <title>The Desk</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="active">Index</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+        <div class="intro">
+            <h1><i>The Desk</i></h1>
+        </div>
+    </header>
+
+    <iframe src="https://www.youtube.com/embed/gmtK6iGKX_g?si=Rek1Ks8pcdUIKGFN" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; 
+    autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+    web-share" allowfullscreen></iframe>
+                    <div>
+                        <p>
+                            2021<br>
+                            An interactive desk<br>
+                            made with Isadora <br>
+                            Collaborators: <b>David Yang</b>, <b>Angela Li</b>
+
+                        </p>
+                        <div class="documentation">
+                            <h2>Instructions</h2>
+                            <p>You can put things into the drawer, take things out, 
+                                move stuff around, and observe what happens on top of the desk!
+                                ​</p>
+    
+                        <h2>Concept</h2>
+                        <p>For this project, we wanted to convey the idea of surface-level simplicity 
+                            from a minimalist approach. There are essentially 3 layers to the project. 
+                            The desk top – what we see (perception). Inside the desk drawer- what is 
+                            actually there (reality). Below the desk drawer- the deeper meaning, 
+                            the truth, the process. <br>
+                            The Desk is a minimalist form of how we perceive reality. It acted as our mind. 
+                            When we place anything from reality to our mind, the reality flees away 
+                            and transforms to different levels of thoughts.
+                            The object is shown in its abstract/minimal form when looking at the 
+                            surface of the desk. The object’s back/shadow is shown when looking from 
+                            when looking underneath the desk. No matter how we perceive the object, 
+                            it will never be what it truly is. The only way to see the object for 
+                            what it is is to take the object out of the drawer.<br>
+                            This is perhaps a reimagination of commentary to the minimalism art movement.
+                        </p>
+                   
+                         <h2>Using the Isadora Software</h2>
+                         <p>To display the shapes in the projection, we tested out 3 methods. <br> <br>
+                            <b>Method 1:</b> Attaching a rectangle shape to each detected “blob” and 
+                            connect its centroid h and centroid v to the width and height of 
+                            the shape. Then projecting the shapes onto the surface of the desk.
+                            <img src="desk/desk1.jpg" alt="Method 1">
+                         <br>
+                         <b>Method 2:</b> Screen capturing the monitor from Eyes++ using 
+                         Syphoner to project the blobs onto the surface of the desk.
+                            <img src="desk/desk2.jpg" alt="Method 2">
+                         <br>
+                         <b>Method 3:</b> Applying filters to capture the outline and color of each 
+                         shape and projecting each shape’s outline onto the surface of the desk.
+                            <img src="desk/desk3.jpg" alt="Method 2">
+                         <br>
+                         </p>
+                         <h2>Fabrication</h2>
+                         <img src="desk/deskfab.png" alt="Fabrication documentation" class="fab">
+                         <br>
+                         <p>The desk is made out of a foam board, LED strips, and 
+                            a two way mirror. We used hot glue to glue the form 
+                            board and AB glue to glue the mirror. The mirror 
+                            actually has a really cool reflection when you open the drawer.
+                            The problem with using the form board is that the desk became 
+                            too light and easily shifted and bruised. Also, the drawer 
+                            lacks a sliding mechanism to make it work properly. Another 
+                            challenge we have faced is the webcam auto exposure. The auto 
+                            exposure makes it hard to luma key the object from below consistently.
+                         </p>
+                        
+                         <h2>Future Variations</h2>
+                         <p>
+                            If we were to develop this further, it doesn’t have to be limited to 
+                            a drawer, we could use an entire wall that splits a room into two, 
+                            and project people’s outlines onto both sides. It could even be in 
+                            two entirely different locations where people from different places 
+                            can feel the presence of others from their outlines.
+                         </p>
+                        
+    
+    
+                        </div>
+                    </div>
+       
+            
+    <footer>
+        <div class="contact-links">
+            <!-- Contact links content -->
+            <a href="mailto:wantinggmao@gmail.com">wantinggmao.com@gmail.com</a>
+            <a href="tel:+15107080504">510.708.0504</a>
+        </div>
+    </footer>
+</body>
+</html>

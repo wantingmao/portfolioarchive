@@ -4,13 +4,20 @@ body {
     margin: 0;
     padding: 0;
     background-color: #F4FAFF;
-    color: #4E0250;;
+    color: #4E0250;
 }
 
-a {
-    text-decoration: none;
+a{
+    color: #4E0250;
+    text-decoration: underline;
+    margin: 20px auto;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
 }
-
+a:hover {
+    color: #ff0000;
+    text-decoration-color: #ff0000;
+}
 h1 {
     font-family: 'Inconsolata', sans-serif;
     color: #4E0250;
