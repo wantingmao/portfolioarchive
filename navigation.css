@@ -1,0 +1,33 @@
+/* navigation.css */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0px; /* Adjust the margin as needed */
+    margin-right: 0px;
+   /* background: linear-gradient(180deg, rgba(255,248,245, 1) 5%, rgba(255,248,245, 0) 100%);
+    z-index: 1000; Set a higher z-index to ensure it's above other elements */
+    width: 100%; /* Make it full-width */
+    padding-right: 20px;
+}
+
+.navbar a {
+    padding: 10px 0px;
+    margin: 10px 15px;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
+    color: #4E0250;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ff0000;
+    text-decoration-color: #ff0000;
+}

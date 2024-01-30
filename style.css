@@ -1,0 +1,188 @@
+body {
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    background-color: #F4FAFF;
+    color: #4E0250;;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Inconsolata', sans-serif;
+    color: #4E0250;
+    font-size: 30px;
+    padding: 20px 0px 0px 0px;
+}
+
+.intro-text {
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0px 0px 5px 0px;
+    line-height: 1.7;
+}
+
+header {
+    background-color: #F4FAFF;
+    color: rgb(78, 2, 80);
+    text-align: left;
+    padding: 70px 5vw 30px 5vw;
+}
+header .navbar a.active{
+    color: #4E0250;
+    text-decoration: underline;
+}
+
+.profileillustration {
+    margin-right: auto;
+}
+
+.section {
+    margin-bottom: 60px;
+}
+
+.section h2 {
+    color: #4E0250;
+    font-size: 20px;
+    margin-left: 5vw;
+    margin-bottom: 0px;
+}
+
+.project-thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5px 5vw 25px 5vw;
+}
+
+.project-thumbnails a {
+    display: block;
+    width: 32%; /* Adjust to fit 3 items per row */
+    margin: 10px 0px; /* Space between rows */
+}
+
+.container {
+    height: 0;
+    padding-bottom: 60%; /* Adjust for desired aspect ratio */
+    position: relative;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(222,231,231, 1);
+    transition: transform 0.2s ease; 
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(34, 0, 36, 0.723); 
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; 
+    transition: opacity 0.2s ease;
+}
+
+.work-title {
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 20px;
+    /* font-weight: 400; */
+    text-align: center;
+    margin: 0px 30px;
+}
+
+/* .work-title:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
+} */
+
+.container:hover .overlay {
+    opacity: 1; 
+}
+
+.project-thumbnails img {
+    width: auto;
+    max-width: 95%;
+    height: 90%;
+    object-fit: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.container:hover {
+    transform: scale(1.05);
+
+}
+.project-thumbnails-ill,
+ .project-thumbnails-fab{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5px 5vw 25px 5vw;
+}
+.project-thumbnails-ill .container,
+ .project-thumbnails-fab .container {
+    height: 0;
+    padding-bottom: 100%; /* Adjust for desired aspect ratio */
+    position: relative;
+    background-color: rgba(255,255,255, 1);
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(222,231,231, 1);
+    transition: transform 0.2s ease; 
+}
+
+.project-thumbnails-ill a, 
+.project-thumbnails-fab a {
+    display: block;
+    width: 23.5%; /* Adjust to fit 3 items per row */
+    margin: 10px 0px; /* Space between rows */
+}
+.project-thumbnails-ill img, 
+.project-thumbnails-fab img {
+    width: auto; /* Adjust width to 'auto' */
+    max-width: 100%; /* Ensure image does not exceed the container width */
+    height: 90%;
+    object-fit: contain;
+    position: absolute;
+    top: 50%; /* Position the top edge of the image in the middle of the container */
+    left: 50%; /* Position the left edge of the image in the middle of the container */
+    transform: translate(-50%, -50%);
+    
+}
+
+h3 {
+    color: #4E0250;
+    font-size: 40px;
+    padding: 0px;
+}
+
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0px 30px 0px;
+}
+
+.contact-links a {
+    color: #4E0250;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 20px 20px;
+}
+
+.contact-links a:hover{
+    color: #ff0000; 
+    text-decoration: underline;
+}

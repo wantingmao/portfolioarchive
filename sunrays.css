@@ -1,0 +1,130 @@
+body {
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    background-color: #F4FAFF;
+    color: #4E0250;;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Inconsolata', sans-serif;
+    color: #4E0250;
+    font-size: 30px;
+    padding: 5px 0px 0px 0px;
+}
+h2{
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 5vw 10px 5vw;
+    line-height: 1;
+}
+h3 {
+    font-family: 'Inconsolata', sans-serif;
+    color: #4E0250;
+    font-size: 30px;
+    padding: 10px 0px 0px 0px;
+}
+.intro-text {
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0px 0px 5px 0px;
+    line-height: 1.7;
+}
+
+header {
+    background-color: #F4FAFF;
+    color: rgb(78, 2, 80);
+    text-align: left;
+    padding: 70px 5vw 20px 5vw;
+}
+header .navbar a.active{
+    color: #4E0250;
+    text-decoration: underline;
+}
+
+.image {
+    display: flex;
+    align-items: center; /* vertically center */
+    justify-content: center; /* horizontally center*/
+    margin: 0vw 5vw;
+    height: auto; 
+}
+
+.image img {
+    max-height: 60%; /* or any other value that suits your design */
+    max-width: 70%; /* ensures the image doesn't exceed the container's width */
+    height: auto;
+}
+.documentation img{
+    max-height: 30%; /* Smaller height */
+    max-width: 30%; /* Smaller width */
+    height: auto;
+    display: block; /* Makes the image a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+.documentation img:nth-of-type(2),
+.documentation img:nth-of-type(4),
+.documentation img:nth-of-type(5),
+.documentation img:nth-of-type(6),
+.documentation img:nth-of-type(7),
+.documentation img:nth-of-type(10),
+.documentation img:nth-of-type(11){
+    max-height: 70%; /* Smaller height */
+    max-width: 60%; /* Smaller width */
+    height: auto;
+    display: block; /* Makes the image a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+.documentation img:nth-of-type(3){
+    max-height: 70%; /* Smaller height */
+    max-width: 70%; /* Smaller width */
+    height: auto;
+    display: block; /* Makes the image a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+p{
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0px 5vw 0px 5vw;
+    line-height: 1.5;
+}
+ul{
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0px 5vw 5px 6vw;
+    line-height: 1.5;
+}
+ol{
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0px 5vw 5px 7vw;
+    line-height: 1.5;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0px 30px 0px;
+}
+
+.contact-links a {
+    color: #4E0250;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 20px 20px;
+}
+
+.contact-links a:hover{
+    color: #ff0000; 
+    text-decoration: underline;
+}

@@ -1,0 +1,92 @@
+body {
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    background-color: #F4FAFF;
+    color: #4E0250;;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Inconsolata', sans-serif;
+    color: #4E0250;
+    font-size: 30px;
+    padding: 20px 0px 0px 0px;
+}
+
+.intro-text {
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0px 0px 5px 0px;
+    line-height: 1.7;
+}
+
+header {
+    background-color: #F4FAFF;
+    color: rgb(78, 2, 80);
+    text-align: left;
+    padding: 70px 5vw 30px 5vw;
+}
+header .navbar a.active{
+    color: #4E0250;
+    text-decoration: underline;
+}
+
+.profileillustration {
+    margin-right: auto;
+}
+.intro{
+    font-family: 'Inconsolata', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0px 10vw 0px 15vw;
+}
+.aboutme-container {
+    font-family: 'Inconsolata', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0px 10vw 0px 10vw;
+}
+
+
+p {
+    font-family: 'Inconsolata', sans-serif;
+    color: #4E0250;
+    font-size: 20px;
+    margin-left: 5vw;
+    margin-bottom: 0px;
+}
+
+h3 {
+    color: #4E0250;
+    font-size: 40px;
+    padding: 0px;
+}
+
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0px 30px 0px;
+}
+
+.contact-links a {
+    color: #4E0250;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 20px 20px;
+}
+
+.contact-links a:hover{
+    color: #ff0000; 
+    text-decoration: underline;
+}
